@@ -1,0 +1,7 @@
+applications:
+  - name: usermanagement
+    buildpacks: 
+      - java_buildpack
+    path: target/UserManagementSystem-0.0.1-SNAPSHOT.jar
+    services:
+      - usersdb
