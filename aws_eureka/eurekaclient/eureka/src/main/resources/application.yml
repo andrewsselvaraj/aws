@@ -1,8 +1,9 @@
 spring:
-  application:
-    name: spring-cloud-eureka-client
+  cloud:
+    config: 
+      uri: http://localhost:8888
 server:
-  port: 0
+  port: 8888
 eureka:
   client:
     serviceUrl:
