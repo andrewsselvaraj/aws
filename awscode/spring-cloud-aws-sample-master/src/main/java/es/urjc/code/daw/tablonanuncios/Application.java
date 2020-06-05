@@ -10,6 +10,7 @@ import org.springframework.cloud.aws.jdbc.config.annotation.EnableRdsInstance;
 public class Application {
 
 	public static void main(String[] args) {
+		System.out.println("andrews");
 		SpringApplication.run(Application.class, args);
 	}
 }
